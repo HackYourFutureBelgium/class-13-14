@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <title>Randomizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div id="user-interface">
+      <h2 id="header">Randomizer</h2>
+      <p id="number-of-students"></p>
+      <form id="randomizer-form">
+        <input
+          type="radio"
+          name="sortType"
+          value="numberOfGroups"
+          checked="true"
+        />
+        <label>number of groups</label>
+        <br />
+        <input type="radio" name="sortType" value="groupSize" />
+        <label>group size</label>
+        <br />
+        <br />
+
+        <input type="number" value="0" name="number" min="0" />
+        <input type="button" value="generate groups" />
+      </form>
+      <hr />
+      <div id="groups"></div>
+    </div>
+
+    <script id="logic">
+      const shuffle = arr => {
+        // inspired by https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+        arr = [...arr];
+        let currentIndex = arr.length,
+          temporaryValue,
+          randomIndex;
+        while (0 !== currentIndex) {
+          randomIndex = Math.floor(Math.random() * currentIndex);
+          currentIndex -= 1;
+          temporaryValue = arr[currentIndex];
+          arr[currentIndex] = arr[randomIndex];
+          arr[randomIndex] = temporaryValue;
+        }
+        return arr;
+      };
+
+      const byGroupSize = (students, groupSize) => {
+        students = shuffle(students.map(stud => stud));
+        const groups = [];
+        while (students.length >= groupSize) {
+          groups.push(students.splice(0, groupSize));
+        }
+        if (students.length > 0) {
+          let toPad = 0;
+          while (students.length !== 0) {
+            groups[toPad].push(students.pop());
+            toPad++;
+            if (toPad >= groups.length) {
+              toPad = 0;
+            }
+          }
+        }
+        return groups;
+      };
+
+      const byNumberOfGroups = (students, numOfGroups) => {
+        students = shuffle(students.map(stud => stud));
+        const groups = [];
+        for (let i = 0; i < numOfGroups; i++) {
+          groups.push([]);
+        }
+        let groupToJoin = 0;
+        while (students.length !== 0) {
+          groups[groupToJoin].push(students.pop());
+          groupToJoin++;
+          if (groupToJoin >= groups.length) {
+            groupToJoin = 0;
+          }
+        }
+        return groups;
+      };
+    </script>
+
+    <script id="views">
+      const renderGroups = groups =>
+        `<div>` +
+        `  ${groups
+          .map(
+            (group, index) =>
+              `<div>` +
+              `  <h3>Group ${index + 1}</h3>` +
+              `  <ul>` +
+              `    ${group
+                .map(student =>
+                  student.userName
+                    ? `<li><a href="https://github.com/${student.userName}" target="_blank">${student.name}</a></li>`
+                    : `<li>${student.name}</li>`
+                )
+                .reduce((all, next) => all + next)}` +
+              `  </ul>` +
+              `<div>`
+          )
+          .join('')}` +
+        `</div>`;
+    </script>
+
+    <script id="handlers">
+      const randomizeHandler = (students, groupsEl) => event => {
+        const target = event.target;
+        if (target.type !== 'button') {
+          return;
+        }
+
+        const number = Number(target.form.number.value);
+        const sortType = target.form.sortType.value;
+
+        const groups =
+          sortType === 'numberOfGroups'
+            ? byNumberOfGroups(students, number)
+            : byGroupSize(students, number);
+
+        groupsEl.innerHTML = renderGroups(groups);
+      };
+    </script>
+
+    <script id="init">
+      fetch('../admin/data/students.json')
+        .then(res => res.json())
+        .then(students => {
+          document.getElementById(
+            'number-of-students'
+          ).innerHTML = `there are ${students.length} students:`;
+
+          const form = document.getElementById('randomizer-form');
+
+          if (students.length === 0) {
+            document.getElementById('groups').innerHTML =
+              '<p>no students in this class</p>';
+            form.number.setAttribute('max', 0);
+            return;
+          }
+
+          form.number.setAttribute('max', students.length);
+          form.number.setAttribute('min', 1);
+          form.number.setAttribute('value', 1);
+
+          const generateGroups = randomizeHandler(
+            students,
+            document.getElementById('groups')
+          );
+          form.addEventListener('click', generateGroups);
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    </script>
+  </body>
+</html>

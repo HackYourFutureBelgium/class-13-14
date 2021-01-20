@@ -1,0 +1,20 @@
+{
+  "name": "hyf-class-repo",
+  "version": "1.0.0",
+  "description": "repo template for starting an HYF class",
+  "main": "README.md",
+  "scripts": {
+    "fetch-students": "node admin/scripts/fetch-avatars.js students",
+    "fetch-coaches": "node admin/scripts/fetch-avatars.js coaches",
+    "render-modules": "node admin/scripts/render-section.js modules  yes 0",
+    "render-students": "node admin/scripts/render-section.js students ",
+    "render-coaches": "node admin/scripts/render-section.js coaches ",
+    "render-header": "node admin/scripts/render-header.js",
+    "reset": "node admin/scripts/clear.js && node admin/scripts/reseed.js",
+    "fetch": "npm run fetch-students && npm run fetch-coaches",
+    "render": "npm run render-modules && npm run render-students && npm run render-coaches && npm run render-header",
+    "build": "npm run fetch && npm run render"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "milestone": 1,
+    "repoName": "precourse",
+    "filters": [
+      {
+        "text": "prep-work issues",
+        "is": ["issue"],
+        "labels": ["prep-work"]
+      },
+      {
+        "text": "bio pull requests",
+        "is": ["pr"],
+        "labels": ["student-bio"]
+      }
+    ]
+  },
+  {
+    "milestone": 2,
+    "repoName": "incremental-development",
+    "weeks": 3
+  },
+  {
+    "milestone": 3,
+    "repoName": "ux-ui-design",
+    "weeks": 1
+  },
+  {
+    "milestone": 4,
+    "repoName": "welcome-to-js",
+    "weeks": 2
+  },
+  {
+    "milestone": 5,
+    "repoName": "debugging",
+    "weeks": 4
+  },
+  {
+    "milestone": 6,
+    "repoName": "behavior-strategy-implementation",
+    "weeks": 3
+  },
+  {
+    "milestone": 7,
+    "repoName": "separation-of-concerns",
+    "weeks": 2
+  },
+  {
+    "milestone": 8,
+    "repoName": "state",
+    "weeks": 2
+  },
+  {
+    "milestone": 9,
+    "repoName": "encapsulation",
+    "weeks": 3
+  },
+  {
+    "milestone": 10,
+    "repoName": "asynchronous-programming",
+    "weeks": 3
+  },
+  {
+    "milestone": 11,
+    "repoName": "web-apps",
+    "weeks": 5
+  },
+  {
+    "milestone": 12,
+    "repoName": "databases",
+    "weeks": 2
+  },
+  {
+    "milestone": 14,
+    "repoName": "agile-development",
+    "weeks": 6
+  }
+]

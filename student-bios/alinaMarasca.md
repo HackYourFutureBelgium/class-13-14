@@ -1,11 +1,11 @@
 ## Hello!
 
-My name is Alina Marasca. I am a student at [HackYourFuture Belgium](https://www.hackyourfuture.net) course.
+My name is Alina Marasca. I am a student at [__HackYourFuture Belgium__](https://www.hackyourfuture.net) course.
 
 I have no prior coding experience, except for a few lessons at school in the times of floppy disks.:floppy_disk:
 But I like learning and developing new skills and I accept the challenge.:crossed_swords:
 
-If I am not in front of computer digging into coding, I might be:
+If I am not in front of computer digging into code, I might be:
 
 - :lotus_position_woman: doing yoga
 - :camera: taking pictures

@@ -20,8 +20,7 @@ Don't worry, it's not as intimidating as it looks and we're all here to help eac
 ## Software Installations
 
 - [ ] Use Linux or Mac. If your computer is a Windows machine, you will need to either:
-  - Dual-Boot: [itsfoss](https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/), [averagelinuxuser](https://averagelinuxuser.com/dualboot-linux-windows/)
-  - Linux Sub-System (if you're using Windows 10): [itechguides](https://www.itechguides.com/windows-subsystem-for-linux/), [adamtheauthor](https://adamtheautomator.com/windows-subsystem-for-linux/)
+  - Linux Sub-System (you will need to update to Windows 10 if you are not): [itechguides](https://www.itechguides.com/windows-subsystem-for-linux/), [adamtheauthor](https://adamtheautomator.com/windows-subsystem-for-linux/)
 - [ ] [Slack](https://slack.com/intl/en-be/downloads/) - for all HYF communication
 - [ ] [Zoom](https://zoom.us/support/download) - for online class
 - [ ] Modern Browsers with good DevTools, it's good to practice with all of them:
@@ -45,9 +44,10 @@ These are a few VSCode extensions that will make your life easier. Find another 
 
 [How to install VSCode Extensions](https://www.youtube.com/watch?v=PmdbndOoKq4)
 
-- **For Git**
+- **For Git & GitHub**
   - [ ] [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
   - [ ] [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  - [ ] [vscode-pull-request-github](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - **For writing any code**
   - [ ] [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
   - [ ] [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#overview) with [format on save](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code#step-2-%E2%80%94-formatting-code-on-save)

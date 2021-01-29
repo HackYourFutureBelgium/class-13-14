@@ -246,6 +246,16 @@ Slack is great for chatting but links and good explanations can easily get lost 
   </td>
 </tr></table> </li>
 <li><table> <tr>
+  <td><img src='./admin/avatars/students/rago89.jpeg' height="150px" width="150px" alt='rago89 avatar' /></td>
+  <td> <h3 display="inline">Rafael</h3>
+    <ul>
+       <li>about: <a href="./student-bios/rago89.md" target="_blank">bio</a>,      <a href="https://rago89.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Arago89">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Arago89+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Arago89+label%3Aroll-call">roll-calls</a></li>
+        <li>all: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Arago89">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Arago89">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Arago89">commented</a></li>
+        <li>github: <a href="https://github.com/rago89">rago89</a></li>
+    </ul>
+  </td>
+</tr></table> </li>
+<li><table> <tr>
   <td><img src='./admin/avatars/students/perezrei.jpeg' height="150px" width="150px" alt='perezrei avatar' /></td>
   <td> <h3 display="inline">Reinaldo</h3>
     <ul>

@@ -6,10 +6,10 @@ This repository is yours to keep track of what you've covered so far, to get to 
 Slack is great for chatting but links and good explanations can easily get lost in message history. Think of this repository as your class' forum and home page.
 
 - [Modules](#modules)
-- [Students](#students)
-- [Coaches](#coaches)
 - [Workflows](#workflows)
 - [Typical Week](#typical-week)
+- [Students](#students)
+- [Coaches](#coaches)
 - [Shared Notes](./shared-notes)
 
 ## HYF Links
@@ -22,16 +22,6 @@ Slack is great for chatting but links and good explanations can easily get lost 
 
 <!-- BEGIN MODULES -->
 <!-- END MODULES -->
-
----
-
-<!-- BEGIN STUDENTS -->
-<!-- END STUDENTS -->
-
----
-
-<!-- BEGIN COACHES -->
-<!-- END COACHES -->
 
 ---
 
@@ -128,3 +118,15 @@ The more you participate and become part of the HYF community, the more people a
 
 - Family, friends, rest & play
 - Individual study (optional ;)
+
+---
+
+<!-- BEGIN STUDENTS -->
+<!-- END STUDENTS -->
+
+---
+
+<!-- BEGIN COACHES -->
+<!-- END COACHES -->
+
+---

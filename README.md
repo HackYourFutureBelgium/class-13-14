@@ -1,5 +1,7 @@
 <!-- BEGIN HEADER -->
-> [open questions](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion) 
+
+> - [`help-wanted`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Ahelp-wanted)
+> - [`question`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion)
 
 # class-13-14
 
@@ -13,6 +15,7 @@ Slack is great for chatting but links and good explanations can easily get lost 
 - [Modules](#modules)
 - [Students](#students)
 - [Coaches](#coaches)
+- [Workflows](#workflows)
 - [Typical Week](#typical-week)
 - [Shared Notes](./shared-notes)
 
@@ -368,11 +371,86 @@ Slack is great for chatting but links and good explanations can easily get lost 
 
   <ul  style="list-style-type:none;">
 
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/talmurshidi.jpeg' height="150px" width="150px" alt='Tamar' /></td>
+  <td> <h3 display="inline">Tamar</h3>
+    <ul>
+        <li>about: <a href="https://www.linkedin.com/in/talmurhsidi">home page</a></li>
+        <li>github: <a href="https://github.com/talmurshidi" >talmurshidi</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Atalmurshidi" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Atalmurshidi" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/snicoll.jpeg' height="150px" width="150px" alt='Stéphane' /></td>
+  <td> <h3 display="inline">Stéphane</h3>
+    <ul>
+        <li>about: <a href="https://about.me/snicoll">home page</a></li>
+        <li>github: <a href="https://github.com/snicoll" >snicoll</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Asnicoll" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Asnicoll" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/otagi.jpeg' height="150px" width="150px" alt='Tiago' /></td>
+  <td> <h3 display="inline">Tiago</h3>
+    <ul>
+        <li>about: <a href="https://www.mendes-costa.net/">home page</a></li>
+        <li>github: <a href="https://github.com/otagi" >otagi</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aotagi" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Aotagi" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/unmeshvrije.jpeg' height="150px" width="150px" alt='Unmesh' /></td>
+  <td> <h3 display="inline">Unmesh</h3>
+    <ul>
+        <li>github: <a href="https://github.com/unmeshvrije" >unmeshvrije</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aunmeshvrije" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Aunmeshvrije" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
 </ul><br>
 
 
 [TOP](#class-13-14)
 <!-- END COACHES -->
+
+---
+
+## Workflows
+
+A short guide to using the issues in this repo.
+
+### Label: `help-wanted`
+
+You can attach this label to any issue or PR that you need help completing. If the code you are blocked on is in another repository, you can create a new issue using the `help-wanted` template to describe your problem and link to your code.
+
+### Label: `question`
+
+Got a question about anything? Go ahead and ask! You can use this label on an existing issue/PR, or create a new issue to discuss your question.
+
+### Check-Ins
+
+Each module you will create a new check-in issue. You will use this issue to keep track of your self-study progress, and to post a check-in each Wednesday including:
+
+- **Progress**: What went well so far this week?
+- **Blocked**: What blocked you this week? How did you get past it?
+- **Next Steps**: What will you work on for the rest of the week?
+- **Tip(s) of the Week**: Did you find a neat trick or a helpful link this week?
+
+### Projects
+
+For each project (individual or group) you will place a new issue on the Class Projects board.
+
+- If you are blocked, add the `help-wanted` label
+- When you think you're finished, move your issue into the Ready for Review column
+  - If your project is complete, a coach will move it into the Done column
+  - Else they will move it to Needs Revision. When you've addressed the feedback you can move it back into Ready for Review
+
+### Roll-Calls
+
+Each Sunday before class your coach will create a new Roll Call issue. Leave a little comment to say hello and let us all know how your week went.
 
 ---
 

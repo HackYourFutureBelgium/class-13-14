@@ -8,6 +8,7 @@ Slack is great for chatting but links and good explanations can easily get lost 
 - [Modules](#modules)
 - [Students](#students)
 - [Coaches](#coaches)
+- [Workflows](#workflows)
 - [Typical Week](#typical-week)
 - [Shared Notes](./shared-notes)
 
@@ -31,6 +32,42 @@ Slack is great for chatting but links and good explanations can easily get lost 
 
 <!-- BEGIN COACHES -->
 <!-- END COACHES -->
+
+---
+
+## Workflows
+
+A short guide to using the issues in this repo.
+
+### Label: `help-wanted`
+
+You can attach this label to any issue or PR that you need help completing. If the code you are blocked on is in another repository, you can create a new issue using the `help-wanted` template to describe your problem and link to your code.
+
+### Label: `question`
+
+Got a question about anything? Go ahead and ask! You can use this label on an existing issue/PR, or create a new issue to discuss your question.
+
+### Check-Ins
+
+Each module you will create a new check-in issue. You will use this issue to keep track of your self-study progress, and to post a check-in each Wednesday including:
+
+- **Progress**: What went well so far this week?
+- **Blocked**: What blocked you this week? How did you get past it?
+- **Next Steps**: What will you work on for the rest of the week?
+- **Tip(s) of the Week**: Did you find a neat trick or a helpful link this week?
+
+### Projects
+
+For each project (individual or group) you will place a new issue on the Class Projects board.
+
+- If you are blocked, add the `help-wanted` label
+- When you think you're finished, move your issue into the Ready for Review column
+  - If your project is complete, a coach will move it into the Done column
+  - Else they will move it to Needs Revision. When you've addressed the feedback you can move it back into Ready for Review
+
+### Roll-Calls
+
+Each Sunday before class your coach will create a new Roll Call issue. Leave a little comment to say hello and let us all know how your week went.
 
 ---
 

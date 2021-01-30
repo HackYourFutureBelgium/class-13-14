@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "name": "Tamar",
+    "userName": "talmurshidi",
+    "homePage": "https://www.linkedin.com/in/talmurhsidi",
+    "modules": ["Incremental Development"]
+  },
+  {
+    "name": "Stéphane",
+    "userName": "snicoll",
+    "homePage": "https://about.me/snicoll",
+    "modules": ["Incremental Development"]
+  },
+  {
+    "name": "Tiago",
+    "userName": "otagi",
+    "homePage": "https://www.mendes-costa.net/",
+    "modules": ["Incremental Development"]
+  },
+  {
+    "name": "Unmesh",
+    "userName": "unmeshvrije",
+    "modules": ["Incremental Development"]
+  }
+]

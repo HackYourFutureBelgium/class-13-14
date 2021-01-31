@@ -4,7 +4,7 @@ My name is Inggrit. I am a student at [__HackYourFuture Belgium__](https://www.h
 
 This is a new world to me :earth_asia:
 Super challenging,
-But so excited to learn :sparkles:
+but I'm so excited to learn :sparkles:
 
 What do I do when I'm not studying? 
 

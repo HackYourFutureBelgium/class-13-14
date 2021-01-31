@@ -18,7 +18,7 @@ Mebitech Technology |Senior Business Analyst
 
 ## My Hobbies
 * Reading
-* Swimming
+* Swimming.
 
 ## My Country
 

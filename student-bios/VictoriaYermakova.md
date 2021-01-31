@@ -11,7 +11,7 @@ Things I love:
 * :tada: theatres
 * :heart: learn something new
 
-We can connect on [LinkedIn](https://www.linkedin.com/in/victoria-yermakova/)
+We can connect on [LinkedIn](https://www.linkedin.com/)
 
 See you all soon!
 

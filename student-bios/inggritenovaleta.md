@@ -11,5 +11,5 @@ What do I do when I'm not studying?
 - :notes: listen to music or play an instrument
 - :tv: watching Netflix
 - :books: read books
-- :nl: improve my Dutch
+- :netherlands: improve my Dutch
 - :dancers: hangout with my friends and taking :camera:

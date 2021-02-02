@@ -46,7 +46,8 @@ Using this repo as a template you can start a new repository to host your own HY
 - create two project boards:
   - _class-projects_: for all homework projects
   - _side-projects_: for any fun projects students start
-- (optional, if you want the groups randomizer to be live) turn on GitHub pages
+- turn on GitHub pages to make the class randomizer live
+- set PRs to `master`/`main` branch to require review before merging
 
 ### 2. Clone & Reset
 

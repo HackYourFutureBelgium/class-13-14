@@ -57,7 +57,7 @@ Week X
 
 #### What went less well?
 
-#### Why did it go less well?
+#### Lessons Learned
 
 ### Sunday Prep Work
 

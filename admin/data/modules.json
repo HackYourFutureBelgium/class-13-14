@@ -43,7 +43,7 @@
   {
     "milestone": 7,
     "repoName": "separation-of-concerns",
-    "weeks": 2
+    "weeks": 3
   },
   {
     "milestone": 8,
@@ -52,8 +52,8 @@
   },
   {
     "milestone": 9,
-    "repoName": "encapsulation",
-    "weeks": 3
+    "repoName": "single-page-apps",
+    "weeks": 2
   },
   {
     "milestone": 10,

@@ -19,7 +19,7 @@ labels: check-in
 
 > [module repository](_)
 
-## Suggested Study
+Suggested Study
 
 <!-- create a checklist from the module repo README -->
 <!-- one check-box per topic is enough, no need to list each link -->
@@ -29,21 +29,36 @@ labels: check-in
 
 <!--
   copy and fill out this section, once for each week in the module
-  add a new label each week: `week-x`
+  each week add a new `week-x` label when your check-in is ready for review
 -->
 
-## Week X
+Week X
 
-<!-- link to your week's project issue, if there is a project -->
+<!--
+  be sure to look through the exercises before starting the project. 
+  You don’t need to finish them before the project,
+  but starting them will help understand the project. 
 
-> [project issue](your-link-here)
+  your goal each week is to finish the project
+  working on exercises should help you finish the project, not get in the way
+  you can always come back to study the exercises latersa
+-->
+
+- [ ] started the exercises
+- [ ] [project issue](your-link-here)
 
 <!-- the next 4 titles are for Wednesday Check-In -->
 
-### Progress
+### Check-In
 
-### Blocked
+#### I Need Help With:
 
-### Next Steps
+#### What went well?
 
-### Tip(s) of the week
+#### What went less well?
+
+#### Why did it go less well?
+
+### Sunday Prep Work
+
+<!-- write in a checklist of prep work for the coming Sunday -->

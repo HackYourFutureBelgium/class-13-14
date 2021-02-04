@@ -1,6 +1,6 @@
 ## Hello! I am **Irina** :wave:
 
-![Irina](https://github.com/IrinaSing/SHH-trying/blob/main/irina3.png)
+![Irina](https://github.com/IrinaSing/IrinaSing/blob/main/irina3.png)
 
 ### Why did I join [HackYourFuture](https://hackyourfuture.be/) project?
 

@@ -275,6 +275,16 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
+  <td><img src='./admin/avatars/students/Cyngyz.jpeg' height="150px" width="150px" alt='Cyngyz avatar' /></td>
+  <td> <h3 display="inline">Lo</h3>
+    <ul>
+       <li>about: <a href="./student-bios/Cyngyz.md" target="_blank">bio</a>,      <a href="https://Cyngyz.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3ACyngyz">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3ACyngyz+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3ACyngyz+label%3Aroll-call">roll-calls</a></li>
+        <li>all: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3ACyngyz">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3ACyngyz">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3ACyngyz">commented</a></li>
+        <li>github: <a href="https://github.com/Cyngyz">Cyngyz</a></li>
+    </ul>
+  </td>
+</tr></table> </li>
+<li><table> <tr>
   <td><img src='./admin/avatars/students/MahmoudHasan83.jpeg' height="150px" width="150px" alt='MahmoudHasan83 avatar' /></td>
   <td> <h3 display="inline">Mahmoud</h3>
     <ul>
@@ -468,22 +478,23 @@ The more you participate and become part of the HYF community, the more people a
   <ul  style="list-style-type:none;">
 
 <li><table><tr>
-  <td><img src='./admin/avatars/coaches/talmurshidi.jpeg' height="150px" width="150px" alt='Tamar' /></td>
-  <td> <h3 display="inline">Tamar</h3>
-    <ul>
-        <li>about: <a href="https://www.linkedin.com/in/talmurhsidi">home page</a></li>
-        <li>github: <a href="https://github.com/talmurshidi" >talmurshidi</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Atalmurshidi" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Atalmurshidi" >assigned</a></li>
-<li><code>Incremental Development</code></li>    </ul>
-  </td>
-</tr></table></li>
-<li><table><tr>
   <td><img src='./admin/avatars/coaches/snicoll.jpeg' height="150px" width="150px" alt='Stéphane' /></td>
   <td> <h3 display="inline">Stéphane</h3>
     <ul>
         <li>about: <a href="https://about.me/snicoll">home page</a></li>
         <li>github: <a href="https://github.com/snicoll" >snicoll</a></li>
         <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Asnicoll" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Asnicoll" >assigned</a></li>
+<li><code>Precourse</code></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/talmurshidi.jpeg' height="150px" width="150px" alt='Tamar' /></td>
+  <td> <h3 display="inline">Tamar</h3>
+    <ul>
+        <li>about: <a href="https://www.linkedin.com/in/talmurhsidi">home page</a></li>
+        <li>github: <a href="https://github.com/talmurshidi" >talmurshidi</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Atalmurshidi" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Atalmurshidi" >assigned</a></li>
 <li><code>Incremental Development</code></li>    </ul>
   </td>
 </tr></table></li>
@@ -503,6 +514,24 @@ The more you participate and become part of the HYF community, the more people a
     <ul>
         <li>github: <a href="https://github.com/unmeshvrije" >unmeshvrije</a></li>
         <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aunmeshvrije" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Aunmeshvrije" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/razvanbrb.jpeg' height="150px" width="150px" alt='Razvan' /></td>
+  <td> <h3 display="inline">Razvan</h3>
+    <ul>
+        <li>github: <a href="https://github.com/razvanbrb" >razvanbrb</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Arazvanbrb" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Arazvanbrb" >assigned</a></li>
+<li><code>Incremental Development</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/HazemBittar.jpeg' height="150px" width="150px" alt='Hazem' /></td>
+  <td> <h3 display="inline">Hazem</h3>
+    <ul>
+        <li>github: <a href="https://github.com/HazemBittar" >HazemBittar</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AHazemBittar" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3AHazemBittar" >assigned</a></li>
 <li><code>Incremental Development</code></li>    </ul>
   </td>
 </tr></table></li>

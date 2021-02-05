@@ -1,4 +1,7 @@
-<img width="250" src="https://media.giphy.com/media/kFHT64PButf46M7rvP/giphy.gif">
+
+
+![Dancer](https://media.giphy.com/media/kFHT64PButf46M7rvP/giphy.gif)
+
 
 ## Hi guys :wave:
 

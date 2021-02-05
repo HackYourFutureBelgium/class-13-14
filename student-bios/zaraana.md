@@ -1,3 +1,4 @@
+![Student Bios](https://github.com/zaraana/zaraana.github.io/blob/main/img/Student%20Bios.gif)
 # Hi there 👋
 
 - 🔭 I just started my Hack Your Future Journey

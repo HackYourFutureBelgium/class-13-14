@@ -5,7 +5,7 @@
 
 ## Hi guys :wave:
 
-I:heart: Web Development! 
+I :heart:  Web Development! 
 
 After 2 years of my digital marketing career, 
 I ran after my dreams and found myself trying to code. 

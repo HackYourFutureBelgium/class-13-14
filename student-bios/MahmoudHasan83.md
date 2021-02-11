@@ -1,6 +1,6 @@
 # Profile
 
-<img src="https://user-images.githubusercontent.com/59293654/99892734-462d3e80-2c78-11eb-92d6-47dd2d9b7f7d.jpg" width="200" height="200" />
+![Mahmoud Hasan](https://raw.githubusercontent.com/MahmoudHasan83/MahmoudHasan83/main/images/resized-profile.jpg)
 
 ## Personal information
 

@@ -1,7 +1,7 @@
 ---
 name: check-in
 about: A template for individual module issues
-title: 'Your Name: module name, number of weeks'
+title: 'Your Name: module name, number of weeks in this module'
 labels: check-in
 ---
 

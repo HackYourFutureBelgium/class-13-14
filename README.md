@@ -1,7 +1,9 @@
 <!-- BEGIN HEADER -->
 
-> - [`help-wanted`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Ahelp-wanted)
-> - [`question`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion)
+> - [Discussions](https://github.com/HackYourFutureBelgium/class-13-14/discussions)
+> - [Issues](https://github.com/HackYourFutureBelgium/class-13-14/issues)
+>   - [`help-wanted`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Ahelp-wanted)
+>   - [`question`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion)
 
 # class-13-14
 

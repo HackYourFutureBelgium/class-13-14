@@ -47,6 +47,7 @@ Using this repo as a template you can start a new repository to host your own HY
   - _class-projects_: for all homework projects
   - _side-projects_: for any fun projects students start
 - turn on GitHub pages to make the class randomizer live
+- turn on Discussions in your repo settings
 - set PRs to `master`/`main` branch to require review before merging
 
 ### 2. Clone & Reset

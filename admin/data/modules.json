@@ -5,12 +5,12 @@
     "filters": [
       {
         "text": "prep-work issues",
-        "is": ["issue"],
+        "is": ["issue", "open"],
         "labels": ["prep-work"]
       },
       {
         "text": "bio pull requests",
-        "is": ["pr"],
+        "is": ["pr", "open"],
         "labels": ["student-bio"]
       }
     ]

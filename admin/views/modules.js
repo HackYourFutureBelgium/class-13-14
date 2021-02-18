@@ -15,7 +15,7 @@ const renderModule = (module, mainData) =>
             ' | '} `
         : '') +
       (typeof module.weeks === 'number'
-        ? `    <a href="https://github.com/${mainData.repoUserName}/${mainData.repoName}/issues?q=milestone%3A${module.repoName}+label%3Acheck-in">check-ins</a> | `
+        ? `    <a href="https://github.com/${mainData.repoUserName}/${mainData.repoName}/issues?q=milestone%3A${module.repoName}+label%3Acheck-in+is%3Aopen">check-ins</a> | `
         : '') +
       (Array.isArray(module.filters)
         ? module.filters
@@ -47,7 +47,7 @@ const renderModule = (module, mainData) =>
             .join('')
         : '') +
       (module.weeks
-        ? `    | <a href="https://github.com/${mainData.repoUserName}/${mainData.repoName}/issues?q=milestone%3A${module.repoName}+label%3Aroll-call">roll-calls</a> `
+        ? `    | <a href="https://github.com/${mainData.repoUserName}/${mainData.repoName}/issues?q=milestone%3A${module.repoName}+label%3Aroll-call+is%3Aopen">roll-calls</a> `
         : '') +
       (module.milestone
         ? `    | <a href="https://github.com/${mainData.repoUserName}/${mainData.repoName}/milestone/${module.milestone}">milestone</a> `

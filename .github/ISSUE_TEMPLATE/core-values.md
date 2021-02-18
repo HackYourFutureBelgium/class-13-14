@@ -2,7 +2,7 @@
 name: core-values
 about: A template for the Core Values session
 title: 'Group Name: Core Values'
-labels: core-values
+milestone: core-values
 ---
 
 <!--

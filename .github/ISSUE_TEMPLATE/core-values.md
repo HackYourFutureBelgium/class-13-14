@@ -5,6 +5,12 @@ title: 'Group Name: Core Values'
 labels: core-values
 ---
 
+<!--
+- [ ] What do you believe are the core values at HackYourFuture?
+- [ ] Discuss it with your team-members
+- [ ] Write a HYF-manifesto in 5-10 sentences
+-->
+
 ## Manifesto Group 1
 
 - [ ] Core Value 1 (in a sentence, quote or just one word that says it all)
@@ -12,5 +18,4 @@ labels: core-values
 - [ ] Core Value 3
 - [ ] Core Value 4
 - [ ] Core Value 5
-
-... what's most important about HYF to you?
+- [ ] ...

@@ -15,22 +15,29 @@
         <input
           type="radio"
           name="sortType"
+          id="numberOf"
           value="numberOfGroups"
           checked="true"
         />
-        <label>number of groups</label>
+        <label for="numberOf">number of groups</label>
         <br />
-        <input type="radio" name="sortType" value="groupSize" />
-        <label>group size</label>
+        <input type="radio" id="sizeOf" name="sortType" value="groupSize" />
+        <label for="sizeOf">group size</label>
         <br />
         <br />
 
         <input type="number" value="0" name="number" min="0" />
-        <input type="button" value="generate groups" />
+        <input type="button" name="generate" value="generate" />
+        <input type="button" name="download" value="download" />
       </form>
       <hr />
       <div id="groups"></div>
     </div>
+
+    <script id="data">
+      const students = [];
+      const groups = [];
+    </script>
 
     <script id="logic">
       const shuffle = arr => {
@@ -101,7 +108,7 @@
                     ? `<li><a href="https://github.com/${student.userName}" target="_blank">${student.name}</a></li>`
                     : `<li>${student.name}</li>`
                 )
-                .reduce((all, next) => all + next)}` +
+                .reduce((all, next) => all + next, '')}` +
               `  </ul>` +
               `<div>`
           )
@@ -110,28 +117,78 @@
     </script>
 
     <script id="handlers">
-      const randomizeHandler = (students, groupsEl) => event => {
+      const randomizeHandler = groupsEl => event => {
         const target = event.target;
-        if (target.type !== 'button') {
+        if (target.name !== 'generate') {
           return;
         }
 
         const number = Number(target.form.number.value);
         const sortType = target.form.sortType.value;
 
-        const groups =
+        const newGroups =
           sortType === 'numberOfGroups'
             ? byNumberOfGroups(students, number)
             : byGroupSize(students, number);
 
-        groupsEl.innerHTML = renderGroups(groups);
+        groupsEl.innerHTML = renderGroups(newGroups);
+
+        while (groups.length !== 0) {
+          groups.pop();
+        }
+        for (const group of newGroups) {
+          groups.push(group);
+        }
+      };
+
+      const downloadGroups = event => {
+        const target = event.target;
+        if (target.name !== 'download') {
+          return;
+        }
+
+        const number = Number(target.form.number.value);
+        const sortType = target.form.sortType.value;
+
+        const filename =
+          sortType === 'groupSize'
+            ? `groups-of-${number}.txt`
+            : `${number}-groups.txt`;
+
+        const groupsText = groups.reduce(
+          (list, nextGroup, index) =>
+            list +
+            `\nGroup ${index + 1}\n` +
+            nextGroup.reduce(
+              (groupList, member) =>
+                `${groupList}  ${member.name}: ${member.userName}\n`,
+              ''
+            ),
+          ''
+        );
+
+        const element = document.createElement('a');
+        element.setAttribute('download', filename);
+        element.style.display = 'none';
+        element.setAttribute(
+          'href',
+          'data:text/plain;charset=utf-8,' + encodeURIComponent(groupsText)
+        );
+
+        document.body.appendChild(element);
+        element.click();
+        document.body.removeChild(element);
       };
     </script>
 
     <script id="init">
       fetch('../admin/data/students.json')
         .then(res => res.json())
-        .then(students => {
+        .then(loadedStudents => {
+          while (loadedStudents.length !== 0) {
+            students.push(loadedStudents.pop());
+          }
+
           document.getElementById(
             'number-of-students'
           ).innerHTML = `there are ${students.length} students:`;
@@ -150,10 +207,12 @@
           form.number.setAttribute('value', 1);
 
           const generateGroups = randomizeHandler(
-            students,
             document.getElementById('groups')
           );
           form.addEventListener('click', generateGroups);
+          form.addEventListener('click', downloadGroups);
+
+          form.generate.click();
         })
         .catch(err => {
           console.log(err);

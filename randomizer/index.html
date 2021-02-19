@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-    <title>Randomizer</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
     <div id="user-interface">
-      <h2 id="header">Randomizer</h2>
+      <h2 id="header"></h2>
       <p id="number-of-students"></p>
       <form id="randomizer-form">
         <input
@@ -35,8 +35,9 @@
     </div>
 
     <script id="data">
-      const students = [];
-      const groups = [];
+      let info = {};
+      let students = [];
+      let groups = [];
     </script>
 
     <script id="logic">
@@ -133,12 +134,7 @@
 
         groupsEl.innerHTML = renderGroups(newGroups);
 
-        while (groups.length !== 0) {
-          groups.pop();
-        }
-        for (const group of newGroups) {
-          groups.push(group);
-        }
+        groups = newGroups;
       };
 
       const downloadGroups = event => {
@@ -150,10 +146,9 @@
         const number = Number(target.form.number.value);
         const sortType = target.form.sortType.value;
 
-        const filename =
-          sortType === 'groupSize'
-            ? `groups-of-${number}.txt`
-            : `${number}-groups.txt`;
+        const filename = `${info.repoName}--${
+          sortType === 'groupSize' ? `groups-of-${number}` : `${number}-groups`
+        }.txt`;
 
         const groupsText = groups.reduce(
           (list, nextGroup, index) =>
@@ -182,19 +177,30 @@
     </script>
 
     <script id="init">
-      fetch('../admin/data/students.json')
-        .then(res => res.json())
-        .then(loadedStudents => {
-          while (loadedStudents.length !== 0) {
-            students.push(loadedStudents.pop());
-          }
+      (async () => {
+        try {
+          const [loadedStudentsRes, classInfoRes] = await Promise.all([
+            fetch('../admin/data/students.json'),
+            fetch('../admin/data/index.json'),
+          ]);
+          const [loadedStudents, loadedInfo] = await Promise.all([
+            loadedStudentsRes.json(),
+            classInfoRes.json(),
+          ]);
+          students = loadedStudents;
+          info = loadedInfo;
 
+          // -- title & header --
+          const pageName = info.repoName + ' randomizer';
+          document.title = pageName;
+          document.getElementById('header').innerHTML = pageName;
+
+          // -- render the number of students --
           document.getElementById(
             'number-of-students'
           ).innerHTML = `there are ${students.length} students:`;
 
-          const form = document.getElementById('randomizer-form');
-
+          // -- make sure there are students in the class before going on --
           if (students.length === 0) {
             document.getElementById('groups').innerHTML =
               '<p>no students in this class</p>';
@@ -202,21 +208,27 @@
             return;
           }
 
+          // -- initialize form --
+          const form = document.getElementById('randomizer-form');
+
+          // form values
           form.number.setAttribute('max', students.length);
           form.number.setAttribute('min', 1);
           form.number.setAttribute('value', 1);
 
+          // form listeners
           const generateGroups = randomizeHandler(
             document.getElementById('groups')
           );
           form.addEventListener('click', generateGroups);
           form.addEventListener('click', downloadGroups);
 
+          // -- render initial group --
           form.generate.click();
-        })
-        .catch(err => {
-          console.log(err);
-        });
+        } catch (err) {
+          console.error(err);
+        }
+      })();
     </script>
   </body>
 </html>

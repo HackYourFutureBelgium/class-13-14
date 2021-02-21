@@ -159,7 +159,11 @@
                 `${groupList}  ${member.name}: ${member.userName}\n`,
               ''
             ),
-          ''
+          `${info.repoName}: ${
+            sortType === 'groupSize'
+              ? `groups of ${number}`
+              : `${number} groups`
+          }\n\n`
         );
 
         const element = document.createElement('a');

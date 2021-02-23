@@ -1,36 +1,14 @@
----
-name: Group 2 core-values
-about: A template for the Core Values session
-title: 'Group 2: Core Values'
-milestone: core-values
----
+## Empowerment and Responsibility 
+HYF provides a safe learning environment, with all the tools necessary in addition professional volunteers trainers to  support  students to learn independently.
+## Diversity and inclusion 
 
-<!--
-- [ ] What do you believe are the core values at HackYourFuture?
-- [ ] Discuss it with your team-members
-- [ ] Write a HYF-manifesto in 5-10 sentences
--->
+ HYF welcomes people with diverse background into their program. Regardless you experience in coding, education, your origin, gender and age.
+ ## Being proactive
 
-## Manifesto Group 2
+ Everybody can listen and learn independently or with the team depending on how dedicate their are and how many hours they spend studying.
+ ## Working Together 
 
-- [ ] Be proactive
-- [ ] Be curious
-- [ ] Be collaborative
-- [ ] Communication
-- [ ] Go beyond your possibilities
-- [ ] Be attentive
-
-## Diversity 
-HYF welcomes all kinds of people with any background into their program. Regardless you experience in coding, you education, your origin.
-## Being proactive
-Everybody in HYF tries to be active to develeope their skills
-## Contribution to a community
-HYF invites everybody to contribute to the program.
-
-## Working together
-## Being kind
-## Respecting each other
-## Care
-
-
-
+ To colloborate, respect and support each other is the main base of HYF, sharing our struggles and finding solutions with a common goal.
+ ## Community, communication and networking
+ 
+ HYF is establishing a social and professional network facilitating the integration of foreign in Belgium at a national level.

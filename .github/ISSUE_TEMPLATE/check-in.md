@@ -29,9 +29,13 @@ Study Plan
 
 ---
 
+> (the rest is template markdown for your weekly check-in comment)
+
+---
+
 <!--
-  copy and fill out this section, once for each week in the module
-  each week add a new `week-x` label when your check-in is ready for review
+  copy this template into a new comment each week and fill in your answers
+  each week add a new `week-x` label when your check-in comment is ready for review
 -->
 
 Week X

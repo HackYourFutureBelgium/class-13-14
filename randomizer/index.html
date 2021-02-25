@@ -3,34 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
-    <title>Randomizer</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
     <div id="user-interface">
-      <h2 id="header">Randomizer</h2>
+      <h2 id="header"></h2>
       <p id="number-of-students"></p>
       <form id="randomizer-form">
         <input
           type="radio"
           name="sortType"
+          id="numberOf"
           value="numberOfGroups"
           checked="true"
         />
-        <label>number of groups</label>
+        <label for="numberOf">number of groups</label>
         <br />
-        <input type="radio" name="sortType" value="groupSize" />
-        <label>group size</label>
+        <input type="radio" id="sizeOf" name="sortType" value="groupSize" />
+        <label for="sizeOf">group size</label>
         <br />
         <br />
 
         <input type="number" value="0" name="number" min="0" />
-        <input type="button" value="generate groups" />
+        <input type="button" name="generate" value="generate" />
+        <input type="button" name="download" value="download" />
       </form>
       <hr />
       <div id="groups"></div>
     </div>
+
+    <script id="data">
+      let info = {};
+      let students = [];
+      let groups = [];
+    </script>
 
     <script id="logic">
       const shuffle = arr => {
@@ -101,7 +109,7 @@
                     ? `<li><a href="https://github.com/${student.userName}" target="_blank">${student.name}</a></li>`
                     : `<li>${student.name}</li>`
                 )
-                .reduce((all, next) => all + next)}` +
+                .reduce((all, next) => all + next, '')}` +
               `  </ul>` +
               `<div>`
           )
@@ -110,34 +118,93 @@
     </script>
 
     <script id="handlers">
-      const randomizeHandler = (students, groupsEl) => event => {
+      const randomizeHandler = groupsEl => event => {
         const target = event.target;
-        if (target.type !== 'button') {
+        if (target.name !== 'generate') {
           return;
         }
 
         const number = Number(target.form.number.value);
         const sortType = target.form.sortType.value;
 
-        const groups =
+        const newGroups =
           sortType === 'numberOfGroups'
             ? byNumberOfGroups(students, number)
             : byGroupSize(students, number);
 
-        groupsEl.innerHTML = renderGroups(groups);
+        groupsEl.innerHTML = renderGroups(newGroups);
+
+        groups = newGroups;
+      };
+
+      const downloadGroups = event => {
+        const target = event.target;
+        if (target.name !== 'download') {
+          return;
+        }
+
+        const number = Number(target.form.number.value);
+        const sortType = target.form.sortType.value;
+
+        const filename = `${info.repoName}--${
+          sortType === 'groupSize' ? `groups-of-${number}` : `${number}-groups`
+        }.txt`;
+
+        const groupsText = groups.reduce(
+          (list, nextGroup, index) =>
+            list +
+            `\nGroup ${index + 1}\n` +
+            nextGroup.reduce(
+              (groupList, member) =>
+                `${groupList}  ${member.name}: ${member.userName}\n`,
+              ''
+            ),
+          `${info.repoName}: ${
+            sortType === 'groupSize'
+              ? `groups of ${number}`
+              : `${number} groups`
+          }\n\n`
+        );
+
+        const element = document.createElement('a');
+        element.setAttribute('download', filename);
+        element.style.display = 'none';
+        element.setAttribute(
+          'href',
+          'data:text/plain;charset=utf-8,' + encodeURIComponent(groupsText)
+        );
+
+        document.body.appendChild(element);
+        element.click();
+        document.body.removeChild(element);
       };
     </script>
 
     <script id="init">
-      fetch('../admin/data/students.json')
-        .then(res => res.json())
-        .then(students => {
+      (async () => {
+        try {
+          const [loadedStudentsRes, classInfoRes] = await Promise.all([
+            fetch('../admin/data/students.json'),
+            fetch('../admin/data/index.json'),
+          ]);
+          const [loadedStudents, loadedInfo] = await Promise.all([
+            loadedStudentsRes.json(),
+            classInfoRes.json(),
+          ]);
+          students = loadedStudents;
+          info = loadedInfo;
+
+          // -- title & header --
+          const pageName = info.repoName + ' randomizer';
+          document.title = pageName;
+          document.getElementById('header').innerHTML = pageName;
+
+          // -- render the number of students --
           document.getElementById(
             'number-of-students'
           ).innerHTML = `there are ${students.length} students:`;
 
-          const form = document.getElementById('randomizer-form');
-
+          // -- make sure there are students in the class before going on --
           if (students.length === 0) {
             document.getElementById('groups').innerHTML =
               '<p>no students in this class</p>';
@@ -145,19 +212,27 @@
             return;
           }
 
+          // -- initialize form --
+          const form = document.getElementById('randomizer-form');
+
+          // form values
           form.number.setAttribute('max', students.length);
           form.number.setAttribute('min', 1);
           form.number.setAttribute('value', 1);
 
+          // form listeners
           const generateGroups = randomizeHandler(
-            students,
             document.getElementById('groups')
           );
           form.addEventListener('click', generateGroups);
-        })
-        .catch(err => {
-          console.log(err);
-        });
+          form.addEventListener('click', downloadGroups);
+
+          // -- render initial group --
+          form.generate.click();
+        } catch (err) {
+          console.error(err);
+        }
+      })();
     </script>
   </body>
 </html>

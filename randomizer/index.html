@@ -38,6 +38,7 @@
       let info = {};
       let students = [];
       let groups = [];
+      const href = new URL(window.location.href);
     </script>
 
     <script id="logic">
@@ -137,6 +138,23 @@
         groups = newGroups;
       };
 
+      const updateParams = event => {
+        const target = event.target;
+        if (target.name !== 'sortType' && target.name !== 'number') {
+          return;
+        }
+
+        // https://stackoverflow.com/a/56777426
+        const params = new URLSearchParams(location.search);
+        params.set(target.name, target.value);
+
+        window.history.replaceState(
+          {},
+          '',
+          `${location.pathname}?${params.toString()}`
+        );
+      };
+
       const downloadGroups = event => {
         const target = event.target;
         if (target.name !== 'download') {
@@ -218,7 +236,17 @@
           // form values
           form.number.setAttribute('max', students.length);
           form.number.setAttribute('min', 1);
-          form.number.setAttribute('value', 1);
+          form.number.setAttribute(
+            'value',
+            href.searchParams.get('number') || 1
+          );
+
+          const sortType = href.searchParams.get('sortType');
+          if (sortType === 'numberOfGroups') {
+            document.getElementById('numberOf').checked = true;
+          } else if (sortType === 'groupSize') {
+            document.getElementById('sizeOf').checked = true;
+          }
 
           // form listeners
           const generateGroups = randomizeHandler(
@@ -226,6 +254,8 @@
           );
           form.addEventListener('click', generateGroups);
           form.addEventListener('click', downloadGroups);
+
+          form.addEventListener('change', updateParams);
 
           // -- render initial group --
           form.generate.click();

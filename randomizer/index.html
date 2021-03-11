@@ -11,6 +11,7 @@
     <div id="user-interface">
       <h2 id="header"></h2>
       <p id="number-of-students"></p>
+      <form id="active-students"></form>
       <form id="randomizer-form">
         <input
           type="radio"
@@ -96,6 +97,8 @@
     </script>
 
     <script id="views">
+      const renderStudents = students => {};
+
       const renderGroups = groups =>
         `<div>` +
         `  ${groups

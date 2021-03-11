@@ -71,7 +71,10 @@ The more you participate and become part of the HYF community, the more people a
 
 ### Sunday
 
-- 11h - 12h: Prep
+- 10:30 - 11:30: Career Skills
+  - Guest workshops covering important skills that are not in the core curriculum
+  - These will not happen every Sunday
+- 11:30 - 12h: Prep
   - leave your comment in the week's `roll-call`
   - go over any `question` issues together
 - 12h - 16h: Class

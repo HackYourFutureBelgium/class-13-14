@@ -7,7 +7,6 @@
 
 # class-13-14
 
-
 <!-- END HEADER -->
 
 This repository is yours to keep track of what you've covered so far, to get to know each other, to share helpful resources, to practice collaboration workflows, ... to do everything!
@@ -30,6 +29,7 @@ Slack is great for chatting but links and good explanations can easily get lost 
 ---
 
 <!-- BEGIN MODULES -->
+
 ## Modules
 
   <ol start="0">
@@ -49,8 +49,8 @@ Slack is great for chatting but links and good explanations can easily get lost 
 <li><h3><a href="https://github.com/HackYourFutureBelgium/agile-development" style="display: inline">agile-development</a></h3>  <ul><li><p>    6 weeks |      <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Acheck-in+is%3Aopen">check-ins</a> |     <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aagile-development">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/14">milestone</a>   </p></li></ul></li>
 </ol><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END MODULES -->
 
 ---
@@ -101,7 +101,10 @@ The more you participate and become part of the HYF community, the more people a
 
 ### Sunday
 
-- 11h - 12h: Prep
+- 10:30 - 11:30: Career Skills
+  - Guest workshops covering important skills that are not in the core curriculum
+  - These will not happen every Sunday
+- 11:30 - 12h: Prep
   - leave your comment in the week's `roll-call`
   - go over any `question` issues together
 - 12h - 16h: Class
@@ -152,6 +155,7 @@ The more you participate and become part of the HYF community, the more people a
 ---
 
 <!-- BEGIN STUDENTS -->
+
 ## Students
 
   <ul  style="list-style-type:none;">
@@ -267,16 +271,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/MahmoudHasan83.jpeg' height="150px" width="150px" alt='MahmoudHasan83 avatar' /></td>
-  <td> <h3 display="inline">Mahmoud</h3>
-    <ul>
-       <li>about: <a href="./student-bios/MahmoudHasan83.md" target="_blank">bio</a>,      <a href="https://MahmoudHasan83.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3AMahmoudHasan83">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3AMahmoudHasan83+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3AMahmoudHasan83+label%3Aroll-call">roll-calls</a></li>
-        <li>all: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AMahmoudHasan83">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3AMahmoudHasan83">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3AMahmoudHasan83">commented</a></li>
-        <li>github: <a href="https://github.com/MahmoudHasan83">MahmoudHasan83</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/mayuri2510.jpeg' height="150px" width="150px" alt='mayuri2510 avatar' /></td>
   <td> <h3 display="inline">Mayuri</h3>
     <ul>
@@ -377,16 +371,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/solomunwelday.jpeg' height="150px" width="150px" alt='solomunwelday avatar' /></td>
-  <td> <h3 display="inline">Solomon</h3>
-    <ul>
-       <li>about: <a href="./student-bios/solomunwelday.md" target="_blank">bio</a>,      <a href="https://solomunwelday.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Asolomunwelday">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Asolomunwelday+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Asolomunwelday+label%3Aroll-call">roll-calls</a></li>
-        <li>all: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Asolomunwelday">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Asolomunwelday">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Asolomunwelday">commented</a></li>
-        <li>github: <a href="https://github.com/solomunwelday">solomunwelday</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/victoriayerm.jpeg' height="150px" width="150px" alt='victoriayerm avatar' /></td>
   <td> <h3 display="inline">Viktoriia</h3>
     <ul>
@@ -438,13 +422,14 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table> </li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END STUDENTS -->
 
 ---
 
 <!-- BEGIN COACHES -->
+
 ## Coaches
 
   <ul  style="list-style-type:none;">
@@ -509,8 +494,8 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table></li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END COACHES -->
 
 ---

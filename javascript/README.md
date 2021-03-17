@@ -2,7 +2,7 @@
 
 In this folder you and your classmates will write your own JavaScript study guide. In Debugging you will start studying it in-depth but your learning will never be done. JavaScript is a huge and complex language. Each new module will introduce you to some new piece of JavaScript, so with each module you and your classmates should be adding new files to this directory and updating old ones.
 
-Why write your own study guide when there are already so many out there? Because [explaining something helps you understand it](https://www.livescience.com/34000-explaining-helps-understand.html)! Explanations you read or watch online will often make sense as you follow along, but when you try to give the same explanation later you realize that you miss many small details. Re-writing an explanation using code you have used in an exercise can also help master what you learned somewhere else.
+Why write your own study guide when there are already so many out there? Because [explaining something helps you understand it](https://www.livescience.com/34000-explaining-helps-understand.html). Explanations you read or watch online will often make sense as you follow along, but when you try to give the same explanation later you realize that you miss many small details. Re-writing an explanation using code you have used in an exercise can also help master what you learned somewhere else.
 
 ## Organization
 
@@ -35,7 +35,7 @@ No contribution is too small! The only rule is that everything you put everythin
 
 ## Translations
 
-We came from all over the world to learn together at HackYourFuture. In the same way, we all study together in english but have our own mother tongues. You are encouraged to study JavaScript in any language you prefer as long as we come together and share our learning in english. Translating from english to your mother tongue might even be a helpful way to study!
+We came from all over the world to learn together at HackYourFuture. In the same way, we all study together in english but have our own mother tongues. You are encouraged to study JavaScript in any language you prefer as long as we come together and share our learning in english. Translating from english to your mother tongue can be a good way to study, and will definitely help others who are struggling with JS!
 
 Contributions in all languages are welcome as long as you follow these file naming conventions:
 

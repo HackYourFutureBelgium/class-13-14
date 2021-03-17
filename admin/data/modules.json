@@ -13,17 +13,20 @@
         "is": ["pr", "open"],
         "labels": ["student-bio"]
       }
-    ]
+    ],
+    "board": "projects"
   },
   {
     "milestone": 2,
     "repoName": "incremental-development",
-    "weeks": 3
+    "weeks": 3,
+    "board": "projects"
   },
   {
     "milestone": 3,
     "repoName": "ux-ui-design",
-    "weeks": 1
+    "weeks": 1,
+    "board": "projects"
   },
   {
     "milestone": 4,
@@ -33,46 +36,57 @@
   {
     "milestone": 5,
     "repoName": "debugging",
-    "weeks": 4
+    "weeks": 4,
+    "projects": false,
+    "board": "javascript"
   },
   {
     "milestone": 6,
     "repoName": "behavior-strategy-implementation",
-    "weeks": 3
+    "weeks": 3,
+    "projects": false,
+    "board": "phrase-book"
   },
   {
     "milestone": 7,
     "repoName": "separation-of-concerns",
-    "weeks": 3
+    "weeks": 3,
+    "board": "projects"
   },
   {
     "milestone": 8,
     "repoName": "state",
-    "weeks": 2
+    "weeks": 2,
+    "board": "projects"
   },
   {
     "milestone": 9,
     "repoName": "single-page-apps",
-    "weeks": 2
+    "weeks": 2,
+    "board": "projects"
   },
   {
     "milestone": 10,
     "repoName": "asynchronous-programming",
-    "weeks": 3
+    "weeks": 3,
+    "board": "projects"
   },
   {
     "milestone": 11,
     "repoName": "web-apps",
-    "weeks": 5
+    "weeks": 5,
+    "board": "projects"
   },
   {
     "milestone": 12,
     "repoName": "databases",
-    "weeks": 2
+    "weeks": 2,
+    "board": "projects"
   },
   {
     "milestone": 14,
     "repoName": "agile-development",
-    "weeks": 6
+    "weeks": 6,
+    "board": "projects"
   }
 ]

@@ -27,33 +27,33 @@ Study Plan
 <!--  check off a topic when you are confident applying the concept in your projects -->
 <!-- but don't stop there!  this is your study plan, make it work for you -->
 
----
 
-> (the rest is template markdown for your weekly check-in comment)
 
----
 
-<!--
+
+<!--  ---------------------------------------
+
+
   copy this template into a new comment each week and fill in your answers
   each week add a new `week-x` label when your check-in comment is ready for review
--->
+
+  In weeks there is a project:
+
+    be sure to look through the exercises before starting the project. 
+    You don’t need to finish them before the project,
+    but starting them will help understand the project. 
+
+    your goal each week is to finish the project
+    working on exercises should help you finish the project, not get in the way
+    you can always come back to study the exercises latersa
+
+---- BEGIN CHECK-IN TEMPLATE ----
 
 Week X
 
-<!--
-  be sure to look through the exercises before starting the project. 
-  You don’t need to finish them before the project,
-  but starting them will help understand the project. 
-
-  your goal each week is to finish the project
-  working on exercises should help you finish the project, not get in the way
-  you can always come back to study the exercises latersa
--->
-
 - [ ] started the exercises
-- [ ] [project issue](your-link-here)
+- [ ] [project issue](your-link-here) (if there is a project)
 
-<!-- the next 4 titles are for Wednesday Check-In -->
 
 ### Check-In
 
@@ -67,4 +67,8 @@ Week X
 
 ### Sunday Prep Work
 
-<!-- write in a checklist of prep work for the coming Sunday -->
+
+---- END CHECK-IN TEMPLATE ----
+
+
+-->

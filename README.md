@@ -4,12 +4,8 @@
 > - [Issues](https://github.com/HackYourFutureBelgium/class-13-14/issues)
 >   - [`help-wanted`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Ahelp-wanted)
 >   - [`question`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion)
-> - [/shared-notes](./shared-notes)
-> - [/javascript](./javascript)
-> - [/snippets](./snippets)
 
 # class-13-14
-
 
 <!-- END HEADER -->
 
@@ -22,7 +18,11 @@ Slack is great for chatting but links and good explanations can easily get lost 
 - [Typical Week](#typical-week)
 - [Students](#students)
 - [Coaches](#coaches)
-- [Shared Notes](./shared-notes)
+- Study Stuff
+  - [Chill Zone](./chill-zone)
+  - [Shared Notes](./shared-notes)
+  - [JavaScript](./javascript)
+  - [Snippets](./snippets)
 
 ## HYF Links
 
@@ -33,6 +33,7 @@ Slack is great for chatting but links and good explanations can easily get lost 
 ---
 
 <!-- BEGIN MODULES -->
+
 ## Modules
 
   <ol start="0">
@@ -52,8 +53,8 @@ Slack is great for chatting but links and good explanations can easily get lost 
 <li><h3><a href="https://github.com/HackYourFutureBelgium/agile-development" style="display: inline">agile-development</a></h3>  <ul><li><p>    6 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aagile-development">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/14">milestone</a>   </p></li></ul></li>
 </ol><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END MODULES -->
 
 ---
@@ -158,6 +159,7 @@ The more you participate and become part of the HYF community, the more people a
 ---
 
 <!-- BEGIN STUDENTS -->
+
 ## Students
 
   <ul  style="list-style-type:none;">
@@ -450,13 +452,14 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table> </li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END STUDENTS -->
 
 ---
 
 <!-- BEGIN COACHES -->
+
 ## Coaches
 
   <ul  style="list-style-type:none;">
@@ -521,8 +524,8 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table></li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END COACHES -->
 
 ---

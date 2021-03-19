@@ -9,9 +9,6 @@ const header = `
 > - [Issues](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues)
 >   - [\`help-wanted\`](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues?q=is%3Aopen+label%3Ahelp-wanted)
 >   - [\`question\`](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues?q=is%3Aopen+label%3Aquestion)
-> - [/shared-notes](./shared-notes)
-> - [/javascript](./javascript)
-> - [/snippets](./snippets)
 
 # ${repoData.repoName}\n\n`;
 

@@ -19,7 +19,7 @@ labels: check-in
 
 > [module repository](_)
 
-Study Plan
+## Study Plan
 
 <!-- create a study plan for yourself in this module -->
 <!-- you can start your list by making checklist from the module's suggested study -->

@@ -548,6 +548,15 @@ The more you participate and become part of the HYF community, the more people a
 <li><code>Debugging</code></li>    </ul>
   </td>
 </tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/EmilienD.jpeg' height="150px" width="150px" alt='Emilien' /></td>
+  <td> <h3 display="inline">Emilien</h3>
+    <ul>
+        <li>github: <a href="https://github.com/EmilienD" >EmilienD</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AEmilienD" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3AEmilienD" >assigned</a></li>
+<li><code>Debugging</code></li>    </ul>
+  </td>
+</tr></table></li>
 </ul><br>
 
 

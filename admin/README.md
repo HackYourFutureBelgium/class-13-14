@@ -18,6 +18,9 @@ This folder contains the scripts and assets to manage your class repository. Aft
   - [Labels](#labels)
   - [Milestones](#milestones)
   - [Project Boards](#project-boards)
+    - [Class Projects](#class-projects)
+    - [JavaScript and Snippets](#javascript-and-snippets)
+    - [Side Projects](#side-projects)
 - [Class Data](#class-data)
   - [index.json](#indexjson)
   - [students.json](#studentsjson)
@@ -143,6 +146,10 @@ HYF workflows and the links rendered in this repo's README rely on certain label
 - `shared-notes`
   - to indicate when something is interesting for everyone to study
   - for PRs to the /shared-notes directory
+- `javascript`
+  - for issues & PRs to the /javascript folder
+- `snippets`
+  - for issues & PRs to the /snippets folder
 
 Students will also use the `question` issue, but that comes standard in GitHub repos
 
@@ -166,6 +173,16 @@ You will want these columns in your class project board. Students move their iss
 4. **READY FOR REVIEW**: the "Must Have" PRs are merged, and we're ready for feedback
 5. **NEEDS REVISION**: A coach has suggested some changes to implement
 6. **DONE**: a coach has approved your project and closed your issue
+
+#### JavaScript and Snippets
+
+The project boards for organizing the class JS reference and Snippets collection:
+
+1. **TODO**
+2. **DOING**
+3. **READY FOR REVIEW**
+4. **NEEDS REVISION**
+5. **DONE**
 
 #### Side Projects
 

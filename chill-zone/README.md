@@ -19,13 +19,18 @@ Play one of these games and you'll learn something without even knowing it.
 - [the elevator](https://play.elevatorsaga.com/)
 - [warrior.js](https://warriorjs.com/)
 
+### Noises
+
+- [tone.js](https://tonejs.github.io/)
+
 ### Pretty Things
 
 - p5.js
   - [examples](https://p5js.org/examples/)
   - [online editor](https://editor.p5js.org/)
   - [tutorials](https://thecodingtrain.com/beginners/p5js/)
-  - you can make p5 programs locally with Study Lenses by naming your files `file.p5.js` (experimental)
+  - There is a p5 button in study lenses to study programs in your browser
+- [crunchzilla](http://www.crunchzilla.com/code-maven)
 - Khan Academy
   - [tutorial](https://www.khanacademy.org/computing/computer-programming/programming)
   - [sandbox](https://www.khanacademy.org/computer-programming/new/pjs)

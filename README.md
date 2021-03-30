@@ -7,6 +7,7 @@
 
 # class-13-14
 
+
 <!-- END HEADER -->
 
 This repository is yours to keep track of what you've covered so far, to get to know each other, to share helpful resources, to practice collaboration workflows, ... to do everything!
@@ -33,7 +34,6 @@ Slack is great for chatting but links and good explanations can easily get lost 
 ---
 
 <!-- BEGIN MODULES -->
-
 ## Modules
 
   <ol start="0">
@@ -53,8 +53,8 @@ Slack is great for chatting but links and good explanations can easily get lost 
 <li><h3><a href="https://github.com/HackYourFutureBelgium/agile-development" style="display: inline">agile-development</a></h3>  <ul><li><p>    6 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aagile-development">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/14">milestone</a>   </p></li></ul></li>
 </ol><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END MODULES -->
 
 ---
@@ -159,7 +159,6 @@ The more you participate and become part of the HYF community, the more people a
 ---
 
 <!-- BEGIN STUDENTS -->
-
 ## Students
 
   <ul  style="list-style-type:none;">
@@ -308,17 +307,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/radwan-m.jpeg' height="150px" width="150px" alt='radwan-m avatar' /></td>
-  <td> <h3 display="inline">Mohammad</h3>
-    <ul>
-       <li>about: <a href="./student-bios/radwan-m.md" target="_blank">bio</a>,      <a href="https://radwan-m.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Aradwan-m">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Aradwan-m+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Aradwan-m+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aradwan-m">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Aradwan-m+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Aradwan-m">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Aradwan-m">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Aradwan-m+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Aradwan-m">commented</a></li>
-        <li>github: <a href="https://github.com/radwan-m">radwan-m</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/NasratullahHussaini.jpeg' height="150px" width="150px" alt='NasratullahHussaini avatar' /></td>
   <td> <h3 display="inline">Nasratullah</h3>
     <ul>
@@ -396,17 +384,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/victoriayerm.jpeg' height="150px" width="150px" alt='victoriayerm avatar' /></td>
-  <td> <h3 display="inline">Viktoriia</h3>
-    <ul>
-       <li>about: <a href="./student-bios/victoriayerm.md" target="_blank">bio</a>,      <a href="https://victoriayerm.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Avictoriayerm">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Avictoriayerm+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Avictoriayerm+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Avictoriayerm">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Avictoriayerm+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Avictoriayerm">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Avictoriayerm">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Avictoriayerm+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Avictoriayerm">commented</a></li>
-        <li>github: <a href="https://github.com/victoriayerm">victoriayerm</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/zaraana.jpeg' height="150px" width="150px" alt='zaraana avatar' /></td>
   <td> <h3 display="inline">Zara</h3>
     <ul>
@@ -452,14 +429,13 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table> </li>
 </ul><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END STUDENTS -->
 
 ---
 
 <!-- BEGIN COACHES -->
-
 ## Coaches
 
   <ul  style="list-style-type:none;">
@@ -510,7 +486,10 @@ The more you participate and become part of the HYF community, the more people a
     <ul>
         <li>github: <a href="https://github.com/razvanbrb" >razvanbrb</a></li>
         <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Arazvanbrb" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Arazvanbrb" >assigned</a></li>
-<li><code>Incremental Development</code></li>    </ul>
+<li><code>Incremental Development</code></li>
+<li><code>UX/UI Design</code></li>
+<li><code>Welcome to JS</code></li>
+<li><code>Debugging</code></li>    </ul>
   </td>
 </tr></table></li>
 <li><table><tr>
@@ -522,10 +501,57 @@ The more you participate and become part of the HYF community, the more people a
 <li><code>Incremental Development</code></li>    </ul>
   </td>
 </tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/ThibaultLesuisse .jpeg' height="150px" width="150px" alt='Thibault' /></td>
+  <td> <h3 display="inline">Thibault</h3>
+    <ul>
+        <li>github: <a href="https://github.com/ThibaultLesuisse " >ThibaultLesuisse </a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AThibaultLesuisse " >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3AThibaultLesuisse " >assigned</a></li>
+<li><code>Welcome to JS</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/unmeshvrije.jpeg' height="150px" width="150px" alt='Unmesh' /></td>
+  <td> <h3 display="inline">Unmesh</h3>
+    <ul>
+        <li>github: <a href="https://github.com/unmeshvrije" >unmeshvrije</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aunmeshvrije" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Aunmeshvrije" >assigned</a></li>
+<li><code>Welcome to JS</code></li>
+<li><code>Debugging</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/Berihugebre .jpeg' height="150px" width="150px" alt='Berihu' /></td>
+  <td> <h3 display="inline">Berihu</h3>
+    <ul>
+        <li>github: <a href="https://github.com/Berihugebre " >Berihugebre </a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3ABerihugebre " >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3ABerihugebre " >assigned</a></li>
+<li><code>Welcome to JS</code></li>
+<li><code>Debugging</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/maeligg.jpeg' height="150px" width="150px" alt='Maël' /></td>
+  <td> <h3 display="inline">Maël</h3>
+    <ul>
+        <li>github: <a href="https://github.com/maeligg" >maeligg</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Amaeligg" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Amaeligg" >assigned</a></li>
+<li><code>Debugging</code></li>    </ul>
+  </td>
+</tr></table></li>
+<li><table><tr>
+  <td><img src='./admin/avatars/coaches/yildiraykoyuncu.jpeg' height="150px" width="150px" alt='Yildiray' /></td>
+  <td> <h3 display="inline">Yildiray</h3>
+    <ul>
+        <li>github: <a href="https://github.com/yildiraykoyuncu" >yildiraykoyuncu</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Ayildiraykoyuncu" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3Ayildiraykoyuncu" >assigned</a></li>
+<li><code>Debugging</code></li>    </ul>
+  </td>
+</tr></table></li>
 </ul><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END COACHES -->
 
 ---

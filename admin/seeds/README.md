@@ -10,7 +10,11 @@ Slack is great for chatting but links and good explanations can easily get lost 
 - [Typical Week](#typical-week)
 - [Students](#students)
 - [Coaches](#coaches)
-- [Shared Notes](./shared-notes)
+- Study Stuff
+  - [Chill Zone](./chill-zone)
+  - [Shared Notes](./shared-notes)
+  - [JavaScript](./javascript)
+  - [Snippets](./snippets)
 
 ## HYF Links
 

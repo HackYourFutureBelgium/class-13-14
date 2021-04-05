@@ -25,11 +25,46 @@
   {
     "name": "Razvan",
     "userName": "razvanbrb",
-    "modules": ["Incremental Development"]
+    "modules": [
+      "Incremental Development",
+      "UX/UI Design",
+      "Welcome to JS",
+      "Debugging"
+    ]
   },
   {
     "name": "Hazem",
     "userName": "HazemBittar",
     "modules": ["Incremental Development"]
+  },
+  {
+    "name": "Thibault",
+    "userName": "ThibaultLesuisse ",
+    "modules": ["Welcome to JS"]
+  },
+  {
+    "name": "Unmesh",
+    "userName": "unmeshvrije",
+    "modules": ["Welcome to JS", "Debugging"]
+  },
+  {
+    "name": "Berihu",
+    "userName": "Berihugebre ",
+    "modules": ["Welcome to JS", "Debugging"]
+  },
+  {
+    "name": "Maël",
+    "userName": "maeligg",
+    "modules": ["Debugging"]
+  },
+  {
+    "name": "Yildiray",
+    "userName": "yildiraykoyuncu",
+    "modules": ["Debugging"]
+  },
+  {
+    "name": "Emilien",
+    "userName": "EmilienD",
+    "modules": ["Debugging"]
   }
 ]

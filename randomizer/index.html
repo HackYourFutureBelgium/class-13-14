@@ -43,7 +43,7 @@
     </script>
 
     <script id="logic">
-      const shuffle = arr => {
+      const shuffle = (arr) => {
         // inspired by https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
         arr = [...arr];
         let currentIndex = arr.length,
@@ -60,7 +60,7 @@
       };
 
       const byGroupSize = (students, groupSize) => {
-        students = shuffle(students.map(stud => stud));
+        students = shuffle(students.map((stud) => stud));
         const groups = [];
         while (students.length >= groupSize) {
           groups.push(students.splice(0, groupSize));
@@ -79,7 +79,7 @@
       };
 
       const byNumberOfGroups = (students, numOfGroups) => {
-        students = shuffle(students.map(stud => stud));
+        students = shuffle(students.map((stud) => stud));
         const groups = [];
         for (let i = 0; i < numOfGroups; i++) {
           groups.push([]);
@@ -97,9 +97,9 @@
     </script>
 
     <script id="views">
-      const renderStudents = students => {};
+      const renderStudents = (students) => {};
 
-      const renderGroups = groups =>
+      const renderGroups = (groups) =>
         `<div>` +
         `  ${groups
           .map(
@@ -108,7 +108,7 @@
               `  <h3>Group ${index + 1}</h3>` +
               `  <ul>` +
               `    ${group
-                .map(student =>
+                .map((student) =>
                   student.userName
                     ? `<li><a href="https://github.com/${student.userName}" target="_blank">${student.name}</a></li>`
                     : `<li>${student.name}</li>`
@@ -122,7 +122,7 @@
     </script>
 
     <script id="handlers">
-      const randomizeHandler = groupsEl => event => {
+      const randomizeHandler = (groupsEl) => (event) => {
         const target = event.target;
         if (target.name !== 'generate') {
           return;
@@ -141,7 +141,7 @@
         groups = newGroups;
       };
 
-      const updateParams = event => {
+      const updateParams = (event) => {
         const target = event.target;
         if (target.name !== 'sortType' && target.name !== 'number') {
           return;
@@ -158,7 +158,7 @@
         );
       };
 
-      const downloadGroups = event => {
+      const downloadGroups = (event) => {
         const target = event.target;
         if (target.name !== 'download') {
           return;

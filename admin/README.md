@@ -18,6 +18,9 @@ This folder contains the scripts and assets to manage your class repository. Aft
   - [Labels](#labels)
   - [Milestones](#milestones)
   - [Project Boards](#project-boards)
+    - [Class Projects](#class-projects)
+    - [JavaScript and Snippets](#javascript-and-snippets)
+    - [Side Projects](#side-projects)
 - [Class Data](#class-data)
   - [index.json](#indexjson)
   - [students.json](#studentsjson)
@@ -143,6 +146,10 @@ HYF workflows and the links rendered in this repo's README rely on certain label
 - `shared-notes`
   - to indicate when something is interesting for everyone to study
   - for PRs to the /shared-notes directory
+- `javascript`
+  - for issues & PRs to the /javascript folder
+- `snippets`
+  - for issues & PRs to the /snippets folder
 
 Students will also use the `question` issue, but that comes standard in GitHub repos
 
@@ -166,6 +173,16 @@ You will want these columns in your class project board. Students move their iss
 4. **READY FOR REVIEW**: the "Must Have" PRs are merged, and we're ready for feedback
 5. **NEEDS REVISION**: A coach has suggested some changes to implement
 6. **DONE**: a coach has approved your project and closed your issue
+
+#### JavaScript and Snippets
+
+The project boards for organizing the class JS reference and Snippets collection:
+
+1. **TODO**
+2. **DOING**
+3. **READY FOR REVIEW**
+4. **NEEDS REVISION**
+5. **DONE**
 
 #### Side Projects
 
@@ -198,7 +215,12 @@ To note: `modulesUserName` & `project` are a defaults, you can individually conf
   "modulesUserName": "the GitHub username that is used to host the module repos",
   "repoUserName": "the GitHub username used to host the class repo",
   "repoName": "the name of this class' repository",
-  "project": 1 // the number of the project board used for class projects
+  "boards": [ // an array of name/number keys for rendering links to project boards
+    {
+      "name": "board name to render",
+      "number": 1 // board number to link to
+    }
+  ]
 }
 ```
 
@@ -274,6 +296,11 @@ Additional links can be included using the "filters" and "links" properties.
                 if a module has no weeks, then no check-in or roll-call links will be rendered */,
   "project": 1 /* the project board to link to for this module's assignments
                   if absent, the index.json's "project" number will be used */,
+  "projects": true /* does this module have projects?
+                    if false, no link to projects will be rendered */,
+  "board": "string" /* the name of a project board in index.json
+                      for modules that do not have projects, but do have shared notes
+                      this will link to the project board for these notes */,
   "userName": "a github username" /* the user account hosting this module's repository
                                     if not provided, "modulesUserName" from index.json will be used*/,
   "filters": [

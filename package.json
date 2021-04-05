@@ -10,6 +10,8 @@
     "render-students": "node admin/scripts/render-section.js students ",
     "render-coaches": "node admin/scripts/render-section.js coaches ",
     "render-header": "node admin/scripts/render-header.js",
+    "clear": "node admin/scripts/clear.js",
+    "reseed": "node admin/scripts/reseed.js",
     "reset": "node admin/scripts/clear.js && node admin/scripts/reseed.js",
     "fetch": "npm run fetch-students && npm run fetch-coaches",
     "render": "npm run render-modules && npm run render-students && npm run render-coaches && npm run render-header",

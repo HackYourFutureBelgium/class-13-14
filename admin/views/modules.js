@@ -20,31 +20,43 @@ const renderModule = (module, mainData) => {
         (Array.isArray(module.filters)
           ? module.filters
               .map(
-                (filter) =>
+                filter =>
                   `  |  <a href="https://github.com/${mainData.repoUserName}/${
                     mainData.repoName
-                  }/issues?q=milestone%3A${
-                    filter.milestone || module.repoName
-                  }+${
+                  }/issues?q=milestone%3A${filter.milestone ||
+                    module.repoName}+${
                     Array.isArray(filter.labels)
-                      ? filter.labels
-                          .map((label) => 'label%3A' + label)
-                          .join('+')
+                      ? filter.labels.map(label => 'label%3A' + label).join('+')
                       : ''
                   }+${
                     Array.isArray(filter.is)
-                      ? filter.is.map((label) => 'is%3A' + label).join('+')
+                      ? filter.is.map(label => 'is%3A' + label).join('+')
                       : ''
                   }">${filter.text}</a> `
               )
               .join('')
           : '') +
-        (module.board
+        (Array.isArray(module.board)
+          ? module.board
+              .map(
+                boardName =>
+                  `   | <a href="https://github.com/${mainData.repoUserName}/${
+                    mainData.repoName
+                  }/projects/${
+                    mainData.boards.find(board => board.name === boardName)
+                      .number
+                  }${
+                    boardName === 'projects'
+                      ? `?card_filter_query=label%3Aproject+milestone%3A${module.repoName}`
+                      : ''
+                  }">${boardName}</a> `
+              )
+              .join('')
+          : typeof module.board === 'string'
           ? `   | <a href="https://github.com/${mainData.repoUserName}/${
               mainData.repoName
             }/projects/${
-              mainData.boards.find((board) => board.name === module.board)
-                .number
+              mainData.boards.find(board => board.name === module.board).number
             }${
               module.board === 'projects'
                 ? `?card_filter_query=label%3Aproject+milestone%3A${module.repoName}`
@@ -53,7 +65,7 @@ const renderModule = (module, mainData) => {
           : '') +
         (Array.isArray(module.links)
           ? module.links
-              .map((link) => `    <a href="${link.href}">${link.text}</a> | `)
+              .map(link => `    <a href="${link.href}">${link.text}</a> | `)
               .join('')
           : '') +
         (module.weeks

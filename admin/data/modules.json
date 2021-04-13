@@ -37,15 +37,13 @@
     "milestone": 5,
     "repoName": "debugging",
     "weeks": 4,
-    "projects": false,
     "board": "javascript"
   },
   {
     "milestone": 6,
     "repoName": "behavior-strategy-implementation",
     "weeks": 3,
-    "projects": false,
-    "board": "snippets"
+    "board": ["snippets", "projects"]
   },
   {
     "milestone": 7,
@@ -84,8 +82,9 @@
     "board": "projects"
   },
   {
-    "milestone": 14,
-    "repoName": "agile-development",
+    "milestone": 13,
+    "repoName": "final-project",
+    "url": "https://home.hackyourfuture.be/curriculum/final-project",
     "weeks": 6,
     "board": "projects"
   }

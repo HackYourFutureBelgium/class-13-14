@@ -7,7 +7,6 @@
 
 # class-13-14
 
-
 <!-- END HEADER -->
 
 This repository is yours to keep track of what you've covered so far, to get to know each other, to share helpful resources, to practice collaboration workflows, ... to do everything!
@@ -34,6 +33,7 @@ Slack is great for chatting but links and good explanations can easily get lost 
 ---
 
 <!-- BEGIN MODULES -->
+
 ## Modules
 
   <ol start="0">
@@ -43,18 +43,18 @@ Slack is great for chatting but links and good explanations can easily get lost 
 <li><h3><a href="https://github.com/HackYourFutureBelgium/ux-ui-design" style="display: inline">ux-ui-design</a></h3>  <ul><li><p>    1 week    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aux-ui-design+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aux-ui-design">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aux-ui-design+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/3">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/welcome-to-js" style="display: inline">welcome-to-js</a></h3>  <ul><li><p>    2 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Awelcome-to-js+label%3Acheck-in+is%3Aopen">check-ins</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Awelcome-to-js+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/4">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/debugging" style="display: inline">debugging</a></h3>  <ul><li><p>    4 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Adebugging+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/12">javascript</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Adebugging+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/5">milestone</a>   </p></li></ul></li>
-<li><h3><a href="https://github.com/HackYourFutureBelgium/behavior-strategy-implementation" style="display: inline">behavior-strategy-implementation</a></h3>  <ul><li><p>    3 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Abehavior-strategy-implementation+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/13">snippets</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Abehavior-strategy-implementation+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/6">milestone</a>   </p></li></ul></li>
+<li><h3><a href="https://github.com/HackYourFutureBelgium/behavior-strategy-implementation" style="display: inline">behavior-strategy-implementation</a></h3>  <ul><li><p>    3 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Abehavior-strategy-implementation+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/13">snippets</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Abehavior-strategy-implementation">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Abehavior-strategy-implementation+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/6">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/separation-of-concerns" style="display: inline">separation-of-concerns</a></h3>  <ul><li><p>    3 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aseparation-of-concerns+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aseparation-of-concerns">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aseparation-of-concerns+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/7">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/state" style="display: inline">state</a></h3>  <ul><li><p>    2 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Astate+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Astate">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Astate+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/8">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/single-page-apps" style="display: inline">single-page-apps</a></h3>  <ul><li><p>    2 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Asingle-page-apps+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Asingle-page-apps">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Asingle-page-apps+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/9">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/asynchronous-programming" style="display: inline">asynchronous-programming</a></h3>  <ul><li><p>    3 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aasynchronous-programming+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aasynchronous-programming">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aasynchronous-programming+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/10">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/web-apps" style="display: inline">web-apps</a></h3>  <ul><li><p>    5 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aweb-apps+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aweb-apps">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aweb-apps+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/11">milestone</a>   </p></li></ul></li>
 <li><h3><a href="https://github.com/HackYourFutureBelgium/databases" style="display: inline">databases</a></h3>  <ul><li><p>    2 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Adatabases+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Adatabases">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Adatabases+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/12">milestone</a>   </p></li></ul></li>
-<li><h3><a href="https://github.com/HackYourFutureBelgium/agile-development" style="display: inline">agile-development</a></h3>  <ul><li><p>    6 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Aagile-development">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Aagile-development+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/14">milestone</a>   </p></li></ul></li>
+<li><h3><a href="https://home.hackyourfuture.be/curriculum/final-project" style="display: inline">final-project</a></h3>  <ul><li><p>    6 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Afinal-project+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Afinal-project">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Afinal-project+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/13">milestone</a>   </p></li></ul></li>
 </ol><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END MODULES -->
 
 ---
@@ -159,6 +159,7 @@ The more you participate and become part of the HYF community, the more people a
 ---
 
 <!-- BEGIN STUDENTS -->
+
 ## Students
 
   <ul  style="list-style-type:none;">
@@ -429,13 +430,14 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table> </li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END STUDENTS -->
 
 ---
 
 <!-- BEGIN COACHES -->
+
 ## Coaches
 
   <ul  style="list-style-type:none;">
@@ -559,8 +561,8 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table></li>
 </ul><br>
 
-
 [TOP](#class-13-14)
+
 <!-- END COACHES -->
 
 ---

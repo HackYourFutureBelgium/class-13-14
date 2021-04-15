@@ -4,6 +4,7 @@
 > - [Issues](https://github.com/HackYourFutureBelgium/class-13-14/issues)
 >   - [`help-wanted`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Ahelp-wanted)
 >   - [`question`](https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aopen+label%3Aquestion)
+> - [Random Groups](https://HackYourFutureBelgium.github.io/class-13-14/randomizer)
 
 # class-13-14
 
@@ -504,11 +505,11 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table></li>
 <li><table><tr>
-  <td><img src='./admin/avatars/coaches/ThibaultLesuisse .jpeg' height="150px" width="150px" alt='Thibault' /></td>
+  <td><img src='./admin/avatars/coaches/ThibaultLesuisse.jpeg' height="150px" width="150px" alt='Thibault' /></td>
   <td> <h3 display="inline">Thibault</h3>
     <ul>
-        <li>github: <a href="https://github.com/ThibaultLesuisse " >ThibaultLesuisse </a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AThibaultLesuisse " >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3AThibaultLesuisse " >assigned</a></li>
+        <li>github: <a href="https://github.com/ThibaultLesuisse" >ThibaultLesuisse</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AThibaultLesuisse" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3AThibaultLesuisse" >assigned</a></li>
 <li><code>Welcome to JS</code></li>    </ul>
   </td>
 </tr></table></li>
@@ -523,11 +524,11 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table></li>
 <li><table><tr>
-  <td><img src='./admin/avatars/coaches/Berihugebre .jpeg' height="150px" width="150px" alt='Berihu' /></td>
+  <td><img src='./admin/avatars/coaches/Berihugebre.jpeg' height="150px" width="150px" alt='Berihu' /></td>
   <td> <h3 display="inline">Berihu</h3>
     <ul>
-        <li>github: <a href="https://github.com/Berihugebre " >Berihugebre </a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3ABerihugebre " >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3ABerihugebre " >assigned</a></li>
+        <li>github: <a href="https://github.com/Berihugebre" >Berihugebre</a></li>
+        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3ABerihugebre" >authored</a>, <a href="https://github.com/undefined/class-13-14/issues?q=assignee%3ABerihugebre" >assigned</a></li>
 <li><code>Welcome to JS</code></li>
 <li><code>Debugging</code></li>    </ul>
   </td>

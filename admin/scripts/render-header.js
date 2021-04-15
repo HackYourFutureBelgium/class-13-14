@@ -9,6 +9,7 @@ const header = `
 > - [Issues](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues)
 >   - [\`help-wanted\`](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues?q=is%3Aopen+label%3Ahelp-wanted)
 >   - [\`question\`](https://github.com/${repoData.repoUserName}/${repoData.repoName}/issues?q=is%3Aopen+label%3Aquestion)
+> - [Random Groups](https://${repoData.repoUserName}.github.io/${repoData.repoName}/randomizer)
 
 # ${repoData.repoName}\n\n`;
 

@@ -43,24 +43,38 @@
     </script>
 
     <script id="logic">
-      const shuffle = (arr) => {
+      /**
+       * shuffles an array
+       * @param {Array} arr - an array of anything
+       * @returns {Array} a new array with shuffled items
+       */
+      const shuffle = arr => {
         // inspired by https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-        arr = [...arr];
-        let currentIndex = arr.length,
+        const shuffled = [...arr];
+        let currentIndex = shuffled.length,
           temporaryValue,
           randomIndex;
         while (0 !== currentIndex) {
           randomIndex = Math.floor(Math.random() * currentIndex);
           currentIndex -= 1;
-          temporaryValue = arr[currentIndex];
-          arr[currentIndex] = arr[randomIndex];
-          arr[randomIndex] = temporaryValue;
+          temporaryValue = shuffled[currentIndex];
+          shuffled[currentIndex] = shuffled[randomIndex];
+          shuffled[randomIndex] = temporaryValue;
         }
-        return arr;
+        return shuffled;
       };
 
+      /**
+       * divides an array of items into an array of arrays
+       *  the number of arrays is determined by the number of students and the groupSize
+       *  if there are extra students they will be divided between the groups
+       * @param {student[]} students - an array of student objects
+       *  { name:"their name", userName: "githubUser Name" }
+       * @param {number} groupSize - how many people to have in each group
+       * @returns {student[]} an array containing groupSize arrays of students
+       */
       const byGroupSize = (students, groupSize) => {
-        students = shuffle(students.map((stud) => stud));
+        students = shuffle(students.map(stud => stud));
         const groups = [];
         while (students.length >= groupSize) {
           groups.push(students.splice(0, groupSize));
@@ -78,8 +92,17 @@
         return groups;
       };
 
+      /**
+       * divides an array of items into an array of numOfGroups arrays
+       *  it does it's best to make all groups equal
+       *  if there are extra students they will be divided between the groups
+       * @param {student[]} students - an array of student objects
+       *  { name:"their name", userName: "githubUser Name" }
+       * @param {number} numOfGroups - how many groups to create
+       * @returns {student[]} an array containing numOfGroups arrays of students
+       */
       const byNumberOfGroups = (students, numOfGroups) => {
-        students = shuffle(students.map((stud) => stud));
+        students = shuffle(students.map(stud => stud));
         const groups = [];
         for (let i = 0; i < numOfGroups; i++) {
           groups.push([]);
@@ -94,12 +117,42 @@
         }
         return groups;
       };
+
+      /**
+       * maps the groups data into an encoded params string
+       *  [ [ {name:'student name', userName: 'github-name'}, ...], ...]
+       *  'userName+userName+...&userName+userName+...'
+       */
+      const groupsToParams = groups =>
+        encodeURIComponent(
+          groups
+            .map(group => group.map(student => student.userName).join(','))
+            .join('+')
+        );
+
+      /**
+       * the inverse of groupsToParam
+       */
+      const paramsToGroups = params => {
+        const decodedParams = decodeURIComponent(params);
+        const groupStrings = decodedParams.split('+');
+        const userNameArrays = groupStrings.map(groupString =>
+          groupString.split(',')
+        );
+        const parsedGroups = userNameArrays.map(userNames =>
+          userNames.map(userName =>
+            students.find(student => student.userName === userName)
+          )
+        );
+        return parsedGroups;
+      };
     </script>
 
-    <script id="views">
-      const renderStudents = (students) => {};
-
-      const renderGroups = (groups) =>
+    <script id="components">
+      /**
+       * renders a groups array into a list of names linking to github accounts
+       */
+      const renderGroups = groups =>
         `<div>` +
         `  ${groups
           .map(
@@ -108,7 +161,7 @@
               `  <h3>Group ${index + 1}</h3>` +
               `  <ul>` +
               `    ${group
-                .map((student) =>
+                .map(student =>
                   student.userName
                     ? `<li><a href="https://github.com/${student.userName}" target="_blank">${student.name}</a></li>`
                     : `<li>${student.name}</li>`
@@ -121,44 +174,56 @@
         `</div>`;
     </script>
 
+    <script id="procedures">
+      /**
+       * sets the URL parameter
+       */
+      const setParams = (groups, sortType, numberOf) => {
+        const groupsParam = groupsToParams(groups);
+
+        // https://stackoverflow.com/a/56777426
+        const params = `number=${numberOf}&sortType=${sortType}&groups=${groupsParam}`;
+
+        window.history.replaceState(
+          {},
+          '',
+          `${href.origin + href.pathname}?${params}`
+        );
+      };
+    </script>
+
     <script id="handlers">
-      const randomizeHandler = (groupsEl) => (event) => {
+      /**
+       * divides the students into groups:
+       * - renders the groups
+       * - reassigns the global `groups` variable
+       * - updates the URL parameters
+       */
+      const randomizeHandler = groupsEl => event => {
         const target = event.target;
         if (target.name !== 'generate') {
           return;
         }
 
-        const number = Number(target.form.number.value);
+        const numberOf = Number(target.form.number.value);
         const sortType = target.form.sortType.value;
 
         const newGroups =
           sortType === 'numberOfGroups'
-            ? byNumberOfGroups(students, number)
-            : byGroupSize(students, number);
+            ? byNumberOfGroups(students, numberOf)
+            : byGroupSize(students, numberOf);
 
         groupsEl.innerHTML = renderGroups(newGroups);
 
         groups = newGroups;
+
+        setParams(groups, sortType, numberOf);
       };
 
-      const updateParams = (event) => {
-        const target = event.target;
-        if (target.name !== 'sortType' && target.name !== 'number') {
-          return;
-        }
-
-        // https://stackoverflow.com/a/56777426
-        const params = new URLSearchParams(location.search);
-        params.set(target.name, target.value);
-
-        window.history.replaceState(
-          {},
-          '',
-          `${location.pathname}?${params.toString()}`
-        );
-      };
-
-      const downloadGroups = (event) => {
+      /**
+       * generates a .txt file to download the current groups
+       */
+      const downloadGroups = event => {
         const target = event.target;
         if (target.name !== 'download') {
           return;
@@ -252,16 +317,20 @@
           }
 
           // form listeners
-          const generateGroups = randomizeHandler(
-            document.getElementById('groups')
-          );
+          const groupsEl = document.getElementById('groups');
+          const generateGroups = randomizeHandler(groupsEl);
           form.addEventListener('click', generateGroups);
           form.addEventListener('click', downloadGroups);
 
-          form.addEventListener('change', updateParams);
+          // -- initialize groups --
 
-          // -- render initial group --
-          form.generate.click();
+          const serializedGroups = href.searchParams.get('groups');
+          groups = serializedGroups
+            ? paramsToGroups(serializedGroups)
+            : [students];
+
+          // -- render initial grouping --
+          groupsEl.innerHTML = renderGroups(groups);
         } catch (err) {
           console.error(err);
         }

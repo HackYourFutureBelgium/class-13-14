@@ -8,6 +8,7 @@
 
 # class-13-14
 
+
 <!-- END HEADER -->
 
 This repository is yours to keep track of what you've covered so far, to get to know each other, to share helpful resources, to practice collaboration workflows, ... to do everything!
@@ -34,7 +35,6 @@ Slack is great for chatting but links and good explanations can easily get lost 
 ---
 
 <!-- BEGIN MODULES -->
-
 ## Modules
 
   <ol start="0">
@@ -54,8 +54,8 @@ Slack is great for chatting but links and good explanations can easily get lost 
 <li><h3><a href="https://home.hackyourfuture.be/curriculum/final-project" style="display: inline">final-project</a></h3>  <ul><li><p>    6 weeks    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Afinal-project+label%3Acheck-in+is%3Aopen">check-ins</a>    | <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=label%3Aproject+milestone%3Afinal-project">projects</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=milestone%3Afinal-project+label%3Aroll-call+is%3Aopen">roll-calls</a>     | <a href="https://github.com/HackYourFutureBelgium/class-13-14/milestone/13">milestone</a>   </p></li></ul></li>
 </ol><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END MODULES -->
 
 ---
@@ -160,7 +160,6 @@ The more you participate and become part of the HYF community, the more people a
 ---
 
 <!-- BEGIN STUDENTS -->
-
 ## Students
 
   <ul  style="list-style-type:none;">
@@ -276,17 +275,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/Cyngyz.jpeg' height="150px" width="150px" alt='Cyngyz avatar' /></td>
-  <td> <h3 display="inline">Lo</h3>
-    <ul>
-       <li>about: <a href="./student-bios/Cyngyz.md" target="_blank">bio</a>,      <a href="https://Cyngyz.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3ACyngyz">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3ACyngyz+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3ACyngyz+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3ACyngyz">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3ACyngyz+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3ACyngyz">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3ACyngyz">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3ACyngyz+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3ACyngyz">commented</a></li>
-        <li>github: <a href="https://github.com/Cyngyz">Cyngyz</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/mayuri2510.jpeg' height="150px" width="150px" alt='mayuri2510 avatar' /></td>
   <td> <h3 display="inline">Mayuri</h3>
     <ul>
@@ -294,17 +282,6 @@ The more you participate and become part of the HYF community, the more people a
         <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Amayuri2510">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Amayuri2510+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Amayuri2510">commented</a></li>
         <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Amayuri2510">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Amayuri2510+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Amayuri2510">commented</a></li>
         <li>github: <a href="https://github.com/mayuri2510">mayuri2510</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
-  <td><img src='./admin/avatars/students/Mika215.jpeg' height="150px" width="150px" alt='Mika215 avatar' /></td>
-  <td> <h3 display="inline">Michael</h3>
-    <ul>
-       <li>about: <a href="./student-bios/Mika215.md" target="_blank">bio</a>,      <a href="https://Mika215.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3AMika215">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3AMika215+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3AMika215+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AMika215">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3AMika215+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3AMika215">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3AMika215">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3AMika215+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3AMika215">commented</a></li>
-        <li>github: <a href="https://github.com/Mika215">Mika215</a></li>
     </ul>
   </td>
 </tr></table> </li>
@@ -360,17 +337,6 @@ The more you participate and become part of the HYF community, the more people a
         <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3AEnakhimionsam">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3AEnakhimionsam+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3AEnakhimionsam">commented</a></li>
         <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3AEnakhimionsam">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3AEnakhimionsam+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3AEnakhimionsam">commented</a></li>
         <li>github: <a href="https://github.com/Enakhimionsam">Enakhimionsam</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
-  <td><img src='./admin/avatars/students/selimensar.jpeg' height="150px" width="150px" alt='selimensar avatar' /></td>
-  <td> <h3 display="inline">Selim</h3>
-    <ul>
-       <li>about: <a href="./student-bios/selimensar.md" target="_blank">bio</a>,      <a href="https://selimensar.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Aselimensar">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Aselimensar+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Aselimensar+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aselimensar">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Aselimensar+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Aselimensar">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Aselimensar">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Aselimensar+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Aselimensar">commented</a></li>
-        <li>github: <a href="https://github.com/selimensar">selimensar</a></li>
     </ul>
   </td>
 </tr></table> </li>
@@ -431,14 +397,13 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table> </li>
 </ul><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END STUDENTS -->
 
 ---
 
 <!-- BEGIN COACHES -->
-
 ## Coaches
 
   <ul  style="list-style-type:none;">
@@ -562,8 +527,8 @@ The more you participate and become part of the HYF community, the more people a
 </tr></table></li>
 </ul><br>
 
-[TOP](#class-13-14)
 
+[TOP](#class-13-14)
 <!-- END COACHES -->
 
 ---

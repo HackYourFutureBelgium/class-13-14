@@ -319,17 +319,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/perezrei.jpeg' height="150px" width="150px" alt='perezrei avatar' /></td>
-  <td> <h3 display="inline">Reinaldo</h3>
-    <ul>
-       <li>about: <a href="./student-bios/perezrei.md" target="_blank">bio</a>,      <a href="https://perezrei.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Aperezrei">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Aperezrei+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Aperezrei+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Aperezrei">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Aperezrei+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Aperezrei">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Aperezrei">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Aperezrei+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Aperezrei">commented</a></li>
-        <li>github: <a href="https://github.com/perezrei">perezrei</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/Enakhimionsam.jpeg' height="150px" width="150px" alt='Enakhimionsam avatar' /></td>
   <td> <h3 display="inline">Samuel</h3>
     <ul>

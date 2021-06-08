@@ -66,5 +66,11 @@
     "name": "Emilien",
     "userName": "EmilienD",
     "modules": ["Debugging"]
+  },
+  {
+    "name": "Koen",
+    "userName": "koenvd",
+    "homePage": "https://github.com/koenvd",
+    "modules": ["Separation of Concerns"]
   }
 ]

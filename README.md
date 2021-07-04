@@ -220,17 +220,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/gustavoaespitia.jpeg' height="150px" width="150px" alt='gustavoaespitia avatar' /></td>
-  <td> <h3 display="inline">Gustavo</h3>
-    <ul>
-       <li>about: <a href="./student-bios/gustavoaespitia.md" target="_blank">bio</a>,      <a href="https://gustavoaespitia.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Agustavoaespitia">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Agustavoaespitia+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Agustavoaespitia+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Agustavoaespitia">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Agustavoaespitia+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Agustavoaespitia">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Agustavoaespitia">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Agustavoaespitia+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Agustavoaespitia">commented</a></li>
-        <li>github: <a href="https://github.com/gustavoaespitia">gustavoaespitia</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/inggritenovaleta.jpeg' height="150px" width="150px" alt='inggritenovaleta avatar' /></td>
   <td> <h3 display="inline">Inggrit</h3>
     <ul>

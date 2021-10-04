@@ -209,17 +209,6 @@ The more you participate and become part of the HYF community, the more people a
   </td>
 </tr></table> </li>
 <li><table> <tr>
-  <td><img src='./admin/avatars/students/inggritenovaleta.jpeg' height="150px" width="150px" alt='inggritenovaleta avatar' /></td>
-  <td> <h3 display="inline">Inggrit</h3>
-    <ul>
-       <li>about: <a href="./student-bios/inggritenovaleta.md" target="_blank">bio</a>,      <a href="https://inggritenovaleta.github.io">home page</a>        </li>        <li>HYF: <a href="https://github.com/HackYourFutureBelgium/class-13-14/projects/1?card_filter_query=assignee%3Ainggritenovaleta">projects</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+author%3Ainggritenovaleta+label%3Acheck-in">check-ins</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=is%3Aissue+commenter%3Ainggritenovaleta+label%3Aroll-call">roll-calls</a></li>
-        <li>issues: <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=author%3Ainggritenovaleta">authored</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=assignee%3Ainggritenovaleta+is%3Aissue">assigned</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/issues?q=commenter%3Ainggritenovaleta">commented</a></li>
-        <li>PRs: <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=author%3Ainggritenovaleta">opened</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=reviewed-by%3Ainggritenovaleta+is%3Apr">reviewed</a>, <a href="https://github.com/HackYourFutureBelgium/class-13-14/pulls?q=commenter%3Ainggritenovaleta">commented</a></li>
-        <li>github: <a href="https://github.com/inggritenovaleta">inggritenovaleta</a></li>
-    </ul>
-  </td>
-</tr></table> </li>
-<li><table> <tr>
   <td><img src='./admin/avatars/students/IrinaSing.jpeg' height="150px" width="150px" alt='IrinaSing avatar' /></td>
   <td> <h3 display="inline">Irina</h3>
     <ul>
